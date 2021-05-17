@@ -22,7 +22,7 @@ def arr_hash(arr)
       count_hash[key] = [el]
     end
   end
-  puts odd_even(count_hash)
+  odd_even(count_hash)
 end
 
 def odd_even(count_hash)
@@ -32,4 +32,4 @@ def odd_even(count_hash)
 end
 
 arr = ARGV[0].split(",")
-arr_hash(arr)
+puts arr_hash(arr)
