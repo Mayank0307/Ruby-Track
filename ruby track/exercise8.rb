@@ -18,14 +18,14 @@
 
 def power(x)
   array = []
-input = ' '
-while input != ''
-  input = gets.chomp
-  array.push input
-end
-array.delete("")
-arr = array.map(&:to_i)
-arr = arr.map{ |ele| ele**x }
-puts arr
+  input = ' '
+  while input != ''
+    input = gets.chomp
+    array.push input
+  end
+  array.delete("")
+  arr = array.map(&:to_i)
+  arr = arr.map{ |ele| ele**x }
+  puts arr
 end
 power(3)
