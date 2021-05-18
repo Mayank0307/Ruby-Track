@@ -36,5 +36,3 @@ class Employee
 end
 employee = Employee.new
 employee.get_details("employee.csv")
-
-
